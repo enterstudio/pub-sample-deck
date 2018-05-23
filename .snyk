@@ -1,0 +1,69 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - pub-server > send > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > engine.io > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-adapter > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-client > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-parser > debug:
+        patched: '2018-05-23T05:43:10.478Z'
+  'npm:ms:20170412':
+    - pub-server > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-resolve-opts > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-generator > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-generator > pub-resolve-opts > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-generator > pub-src-http > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-pkg-google-oauth > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > browserify-middleware > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > browserify-middleware > prepare-response > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-src-redis > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-serve-sessions > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-src-github > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > send > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > send > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-parser > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > engine.io > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-adapter > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > socket.io > socket.io-client > debug > ms:
+        patched: '2018-05-23T05:43:10.478Z'
+    - pub-server > pub-src-http > pub-util > ms:
+        patched: '2018-05-23T05:43:10.478Z'
