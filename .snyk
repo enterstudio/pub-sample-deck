@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - pub-server > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-resolve-opts > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-generator > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-generator > pub-resolve-opts > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-generator > pub-src-http > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-pkg-google-oauth > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-src-http > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-serve-sessions > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-src-github > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
+    - pub-server > pub-src-redis > pub-util > lodash:
+        patched: '2018-07-03T04:55:36.994Z'
